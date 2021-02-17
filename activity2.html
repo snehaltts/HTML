@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div style="background-color: rgb(178, 200, 224); margin: auto; width: 400px; height: 50px; ">
+            <h2 style="text-align: center; ">Player Details</h2>
+        </div>
+        <div style="background-color: rgb(152, 208, 223); margin: auto; width: 400px; height: auto; margin-top: 20px;">
+
+            <form>
+                <table>
+                    <tr>
+                        <td colspan="1"><i>Name</i><span style="color: red;">*</span> </td>
+                        <td><input type="text" name="name" placeholder="Enter your name" /></td>
+                    </tr>
+                    <tr>
+                           <td><i>DOB<span style="color: red;">*</span> </td>
+                        <td><input type="date" name="dob" /></td>
+                    </tr>
+                    <tr>
+                           <td><i>Age<span style="color: red;">*</span> </td>
+                        <td><input type="number" name="age" placeholder="Enter your age" /></td>
+                    </tr>
+                    <tr>
+                           <td><i>Email<span style="color: red;">*</span> </td>
+                        <td><input type="email" name="email" placeholder="abc12@xyz.com" /></td>
+                    </tr>
+                    <tr>
+                           <td><i>Country<span style="color: red;">*</span> </td>
+                        <td> <select id="country" name="country">
+                                <option>India</option>
+                                <option>America</option>
+                                <option>Pakistak</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                           <td><i>Skills<span style="color: red;">*</span> </td>
+                        <td><input type="checkbox" name="skills" />Batting <input type="checkbox"
+                                name="skills" />Bowling</td>
+                        <!-- <td><input type="checkbox" name="skills"/>Bowling</td> -->
+
+                    </tr>
+                    <tr>
+                           <td><i>Batting Style </td>
+                        <td><input type="radio" name="bat_style" />Right Handed <input type="radio"
+                                name="bat_style" />Left Handed</td>
+                        <!-- <td><input type="radio" name="bat_style"/>Left Handed</td> -->
+                    </tr>
+                    <tr>
+                           <td><i>Bowling Style </td>
+                        <td><input type="radio" name="bowl_style" />Right Handed <input type="radio"
+                                name="bowl_style" />Left Handed</td>
+                        <!-- <td><input type="radio" name="bowl_style"/>Left Handed</td> -->
+                    </tr>
+                    <tr>
+                           <td><i>Match<span style="color: red;">*</span> </td>
+                        <td><input type="number" name="match" placeholder="Total matches played" /></td>
+                    </tr>
+                    <tr>
+                           <td><i>Runs<span style="color: red;">*</span> </td>
+                        <td><input type="number" name="runs" placeholder="Total runs scored" /></td>
+                    </tr>
+                    <tr>
+                           <td><i>Wickets<span style="color: red;">*</span> </td>
+                        <td><input type="number" name="txtPwd" placeholder="Wickets" /></td>
+                    </tr>
+                    <tr>
+                           <td><i>Achievements </td>
+                        <td><textarea name="txtarea" placeholder="Your achievements in cricket"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+        </div>
+
+        <div style="background-color: rgb(178, 200, 224); margin: auto; width: 400px; height: 50px; margin-top: 20px; text-align: center;">
+            <button style="margin: auto; width: 60px; margin-top: 15px; font-size: smaller;">Submit</button> &nbsp;<button style="margin: auto; width: 60px; margin-top: 15px;">Reset</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
